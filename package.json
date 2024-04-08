@@ -1,0 +1,32 @@
+{
+    "name": "stock-trading-simulator",
+    "version": "1.0.0",
+    "description": "Stock Trading Simulator Web App",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "server": "nodemon index.js",
+        "frontend": "npm start --prefix frontend",
+        "frontendinstall": "npm install --prefix frontend",
+        "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+        "render-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend"
+    },
+    "author": "Shubham",
+    "dependencies": {
+        "@react-oauth/google": "^0.12.1",
+        "axios": "^0.20.0",
+        "bcrypt": "^5.0.0",
+        "bcryptjs": "^2.4.3",
+        "concurrently": "^7.6.0",
+        "cookie-parser": "^1.4.5",
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-session": "^1.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^5.10.14",
+        "nodemon": "^3.0.1",
+        "passport": "^0.4.1",
+        "passport-local": "^1.0.0"
+    }
+}
