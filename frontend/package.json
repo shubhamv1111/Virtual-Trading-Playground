@@ -19,7 +19,8 @@
     "react-infinite-scroll-component": "^6.1.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.0.1",
-    "recharts": "^2.12.4"
+    "recharts": "^2.12.4",
+    "webpack": "^5.91.0"
   },
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
