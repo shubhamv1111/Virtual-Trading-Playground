@@ -1,1 +1,0 @@
-Virtual Trading Playground
